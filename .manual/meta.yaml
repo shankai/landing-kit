@@ -1,0 +1,145 @@
+attributes:
+  - 
+    name: name
+    link: html_url
+    display: Repository
+    align: ':---:'
+  -
+    name: description
+    link:
+    display: Description
+  -
+    name: license.spdx_id
+    link: 
+    display: License
+  - 
+    name: language
+    link: languages_url
+    display: Language
+  - 
+    type: number
+    name: stargazers_count
+    link: 
+    display: Star
+  -
+    type: static
+    name: cloud
+    link:
+    display: Cloud
+
+categories:
+  - 
+    name: Data Visualization & Exploration
+    items:
+      -
+        name: apache/superset
+      -
+        name: getredash/redash
+  -
+    name: BaaS
+    items:
+      - 
+        name: appwrite/appwrite
+      - 
+        name: supabase/supabase
+        static: 
+          cloud: true
+      - 
+        name: appsmithorg/appsmith
+      - 
+        name: directus/directus
+  - 
+    name: IoT
+    items:
+      - 
+        name: mainflux/mainflux
+      - 
+        name: frangoteam/FUXA
+  - 
+    name: AI
+  -
+    name: Storage & Databases
+    items:
+      - 
+        name: minio/minio
+      - 
+        name: postgres/postgres
+      -
+        name: pgvector/pgvector
+      -
+        name: apache/age
+      -
+        name: MariaDB/server
+      -
+        name: apache/cassandra
+      -
+        name: redis/redis
+        static:
+          cloud: true
+      -
+        name: mongodb/mongo
+      - 
+        name: timescale/timescaledb
+      - 
+        name: kairosdb/kairosdb
+      -
+        name: dgraph-io/dgraph    
+  -
+    name: Streaming & Messaging
+    items:
+      -
+        name: apache/kafka
+      -
+        name: apache/flink
+      -
+        name: emqx/emqx
+      -
+        name: eclipse/mosquitto
+      -
+        name: apache/spark
+      -
+        name: nats-io/nats-server
+      -
+        name: rabbitmq/rabbitmq-server
+      -
+        name: apache/rocketmq
+      -
+        name: apache/pulsar
+  -
+    name: API Gateway
+    items:
+      - 
+        name: Kong/kong
+      -
+        name: apache/apisix
+  -
+    name: Security( Authentication & Authorization )
+    items:
+      - 
+        name: apereo/cas
+      -
+        name: keycloak/keycloak
+      - 
+        name: ory/kratos
+      -
+        name: ory/keto
+  - 
+    name: Low Code & Rules Engine & Serverless
+    items:
+      - 
+        name: nocobase/nocobase
+      - 
+        name: Budibase/budibase
+      -
+        name: node-red/node-red
+      -
+        name: nuclio/nuclio
+  -
+    name: Audio & Video & Image
+    items:
+      -
+        name: ossrs/srs
+      -
+        name: FFmpeg/FFmpeg
+      -
+        name: Kurento/kurento
