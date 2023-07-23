@@ -34,6 +34,8 @@ categories:
       -
         name: apache/superset
       -
+        name: metabase/metabase
+      -
         name: getredash/redash
   -
     name: BaaS
@@ -53,6 +55,8 @@ categories:
     items:
       - 
         name: mainflux/mainflux
+      -
+        name: chirpstack/chirpstack
       - 
         name: frangoteam/FUXA
   - 
@@ -106,12 +110,14 @@ categories:
       -
         name: apache/pulsar
   -
-    name: API Gateway
+    name: API Gateway & Webhook
     items:
       - 
         name: Kong/kong
       -
         name: apache/apisix
+      -
+        name: frain-dev/convoy
   -
     name: Security( Authentication & Authorization )
     items:
@@ -126,6 +132,8 @@ categories:
   - 
     name: Low Code & Rules Engine & Serverless
     items:
+      -
+        name: nocodb/nocodb
       - 
         name: nocobase/nocobase
       - 
@@ -143,3 +151,7 @@ categories:
         name: FFmpeg/FFmpeg
       -
         name: Kurento/kurento
+  - name: Social Communication
+    items:
+      -
+        name: RocketChat/Rocket.Chat
