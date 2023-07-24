@@ -22,16 +22,16 @@ jobs:
         node-version: ${{ matrix.version }}
 
     - name: Change Dir
-      run: pwd && ls -la 
+      run: pwd && ls -la && cd .manual
       
     - name: Install Dependencies
       run: npm install
 
     - name: Call Process
-      run: node ./manual/process.js
+      run: node ./process.js
 
     - name: Merge
-      run: mv readme.dev.md README.md
+      run: cd .. && mv readme.dev.md README.md
 
     - name: Push Newest
       run: |
