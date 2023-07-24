@@ -21,6 +21,9 @@ jobs:
       with:
         node-version: ${{ matrix.version }}
 
+    - name: Change Dir
+      run: cd landing-kit
+
     - name: Install Dependencies
       run: npm install
 
