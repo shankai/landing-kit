@@ -22,8 +22,8 @@ jobs:
         node-version: ${{ matrix.version }}
 
     - name: Change Dir
-      run: cd landing-kit
-
+      run: pwd && ls -la 
+      
     - name: Install Dependencies
       run: npm install
 
