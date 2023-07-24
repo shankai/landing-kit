@@ -21,6 +21,9 @@ jobs:
       with:
         node-version: ${{ matrix.version }}
 
+    - name: Install Dependencies
+      run: npm install
+
     - name: Call Process
       run: node ./manual/process.js
 
