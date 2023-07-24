@@ -1,0 +1,17 @@
+{
+  "name": "fetchrepos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "process.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
+    "sync-request": "^6.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shankai",
+  "license": "ISC"
+}
